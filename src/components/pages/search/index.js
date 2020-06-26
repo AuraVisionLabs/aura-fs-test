@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import moment from "moment";
-import { Button, Card, Elevation } from "@blueprintjs/core";
 
 import { flightData } from "../../../services/api";
 import PageWrapper from '../../page-wrapper'
@@ -23,8 +21,6 @@ class App extends Component {
         this.setState({ returnDate });
     }
     render() {
-        const { outbound = [], inbound = [] } = this.getMatchingFlights();
-
         return (
             <PageWrapper>
                 <FlightSearchBar onDepartureDateChange={this.updateDepartureDate.bind(this)} onReturnDateChange={this.updateReturnDate.bind(this)} />
