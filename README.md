@@ -8,7 +8,7 @@
 
 ### Extend this front end application so that a user can search for available flights by date
 
-- The user is looking for return flights that match their dates, but they don’t care where they go.
+- The user is looking for return flights, originating in London, that match their dates, but they don’t care where they go.
 - All flights in the API response either originate from, or return to London
 - Any flights you show must have matching return flights, e.g. only show flights to Barcelona if there are flights back from Barcelona on the selected return date
 - Ensure any conventions already present in this FE app are followed
