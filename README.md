@@ -8,9 +8,8 @@
 
 ### Extend the API so that it can accomodate queries
 
-- Allow a client to query the flight data by origin, destination and/or dates
-- The API side of this application is incredibly barebones on purpose because we're more interested in how you'd structure this back end service. It should use Node/Express though.
-- Think about what you'd need if this was a real API, e.g. request validation, and other things.
+- Allow a client to query the flight data by origin, destination and/or dates. Use Node/Express to build the functionality to do that.
+- The flight data that might normally be in a database, is in a JSON file that is imported to the application, to keep things super simple.
 
 ## Task 2
 
